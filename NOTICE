@@ -1,0 +1,17 @@
+GeoReason
+Copyright 2026 the GeoReason authors.
+
+GeoReason builds on Sa2VA (ByteDance), Qwen3-VL (Alibaba Cloud), and
+Segment Anything 2 (Meta). The Sa2VA model supplies the pretrained Qwen3-VL
+and SAM2 components. Training prompt templates and segmentation objectives
+are adapted from Sa2VA and its LISA/GLAMM and OpenMMLab dependencies.
+
+Upstream projects:
+https://github.com/bytedance/Sa2VA
+https://github.com/QwenLM/Qwen3-VL
+https://github.com/facebookresearch/sam2
+https://github.com/dvlab-research/LISA
+https://github.com/mbzuai-oryx/groundingLMM
+https://github.com/open-mmlab/mmdetection
+
+Model weights and datasets retain their respective upstream licenses.

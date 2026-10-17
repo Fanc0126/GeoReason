@@ -1,0 +1,30 @@
+model:
+  pretrained: ByteDance/Sa2VA-Qwen3-VL-4B
+  revision: fa5f0ed5d0b0b71163572510121edeaa201e6bd8
+  ap: true
+  bbox_cot: true
+  pta: true
+  lora_rank: 128
+  lora_alpha: 256
+  lora_dropout: 0.05
+data:
+  root: data
+  manifests: data/prepared
+  repeats:
+    rrsisd: 25
+    earthreason: 20
+    geochat: 1
+    vrsbench: 1
+train:
+  batch_size: 2
+  gradient_accumulation: 8
+  epochs: 1
+  learning_rate: 0.00004
+  weight_decay: 0.05
+  warmup_ratio: 0.05
+  max_grad_norm: 1.0
+  max_length: 8192
+  workers: 8
+  save_steps: 2000
+  seed: 42
+  output: outputs/georeason
