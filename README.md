@@ -12,6 +12,7 @@
 </p>
 <p align="center">
   <a href="https://neurips.cc/virtual/2026/poster/152062"><img src="https://img.shields.io/badge/NeurIPS-2026-684b9f" alt="NeurIPS 2026"></a>
+  <a href="https://arxiv.org/abs/2610.23416"><img src="https://img.shields.io/badge/arXiv-2610.23416-b31b1b" alt="arXiv"></a>
   <a href="https://github.com/Fanc0126/GeoReason"><img src="https://img.shields.io/badge/Code-GeoReason-181717?logo=github" alt="Code"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue" alt="License"></a>
 </p>
@@ -24,6 +25,7 @@ We introduce **GeoReason**, a framework that bridges logical reasoning and spati
 
 ## 🗞️ News
 
+- **2026-10-19**: 📄 Our paper is now available on [arXiv](https://arxiv.org/abs/2610.23416).
 - **2026-10-17**: 💻 We release the training and evaluation code for GeoReason.
 - **2026-09-24**: 🎉 GeoReason has been accepted to **NeurIPS 2026**!
 
@@ -160,9 +162,16 @@ Use `--split val` for validation, or `python -m georeason.evaluate` for single-G
 
 ## 📝 Citation
 
-The arXiv release is in preparation. BibTeX will be added soon.
+If you find GeoReason useful in your research, please cite our paper:
 
 ```bibtex
+@article{fan2026georeason,
+  title={GeoReason: Bridging Logical Reasoning and Spatial Fidelity in Remote Sensing Segmentation},
+  author={Fan, Cheng and Wu, Han and Luo, Tingzhang and Dong, Minjing and Tang, Yehui and Guo, Jianyuan},
+  journal={arXiv preprint arXiv:2610.23416},
+  year={2026},
+  url={https://arxiv.org/abs/2610.23416}
+}
 ```
 
 ## 🙏 Acknowledgements
