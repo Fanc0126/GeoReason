@@ -84,7 +84,7 @@ Download and extract the datasets from their release pages:
 | Dataset | Source |
 |:--|:--|
 | EarthReason | [Hugging Face](https://huggingface.co/datasets/earth-insights/EarthReason) |
-| RRSIS-D | [RMSIN](https://github.com/Lsan2401/RMSIN#datasets) |
+| RRSIS-D | [RMSIN](https://github.com/Lsan2401/RMSIN#datasets) · [Hugging Face mirror](https://huggingface.co/datasets/VoyageWang/rrsis-d) |
 | GeoChat | [Hugging Face](https://huggingface.co/datasets/MBZUAI/GeoChat_Instruct) |
 | VRSBench | [Hugging Face](https://huggingface.co/datasets/xiang709/VRSBench) |
 
